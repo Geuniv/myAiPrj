@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dda581c-3827-414a-b4cd-c9d5d38d84ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4dda581c-3827-414a-b4cd-c9d5d38d84ac" name="Changes" comment="2024.03.25 AI응용기술 ( 김진석 교수님 )">
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/myAiPrj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test_images/daisy.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test_images/dandelion.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test_images/roses.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test_images/sunflower.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test_images/tulips.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/mnist.pkl.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elsaWordCloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileWordCloud.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flower_ai.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flower_model1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/flower_model2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/BaLeeJiEun.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/D2Coding-Ver1.3.2-20180524-ligature.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/NanumGothic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/NanumSquareNeo-aLt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frogWordCloud.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/daisy/100080576_f52e8ee070_n.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/daisy/10140303196_b88d3d6cec.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/daisy/10172379554_b296050f82_n.jpg" afterDir="false" />
@@ -3692,13 +3691,24 @@
       <change afterPath="$PROJECT_DIR$/images/tulips/9947374414_fdf1d0861c_n.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/tulips/9947385346_3a8cacea02_n.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/tulips/9976515506_d496c5e72c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist_opencv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist_tensorflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elsa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elsa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elsa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/frog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/frog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/re.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/re2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yadon.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/model/myFlower1.h5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/model/myFlower2.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/myModel.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWordAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWordAnalysis2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWordCloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWordCloud2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWordCloudAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myWordCloudAnalysis2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text/contents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3726,17 +3736,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.elsaWordCloud.executor": "Run",
+    "Python.fileWordCloud.executor": "Run",
     "Python.flower_ai.executor": "Run",
     "Python.flower_model1.executor": "Run",
     "Python.flower_model2.executor": "Run",
+    "Python.frogWordCloud.executor": "Run",
     "Python.mnist_opencv.executor": "Run",
     "Python.mnist_tensorflow.executor": "Run",
+    "Python.myWordAnalysis.executor": "Run",
+    "Python.myWordAnalysis2.executor": "Run",
+    "Python.myWordCloud.executor": "Run",
+    "Python.myWordCloud2.executor": "Run",
+    "Python.myWordCloudAnalysis.executor": "Run",
+    "Python.myWordCloudAnalysis2.executor": "Run",
     "Python.my_number.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowPlots.ShowToolbar": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/myAiPrj/Test_images",
+    "last_opened_file_path": "C:/myAiPrj/font",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -3748,16 +3768,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myAiPrj\font" />
       <recent name="C:\myAiPrj\Test_images" />
       <recent name="C:\myAiPrj\images" />
       <recent name="C:\myAiPrj" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\myAiPrj\img" />
+      <recent name="C:\myAiPrj\text" />
       <recent name="C:\myAiPrj" />
+      <recent name="C:\myAiPrj\font" />
+      <recent name="C:\myAiPrj\wordcolud" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flower_model2">
-    <configuration name="flower_ai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.frogWordCloud">
+    <configuration name="elsaWordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3771,7 +3796,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flower_ai.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elsaWordCloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -3780,7 +3805,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flower_model1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fileWordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3794,7 +3819,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flower_model1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fileWordCloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -3803,7 +3828,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flower_model2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="frogWordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3817,7 +3842,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flower_model2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frogWordCloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -3849,7 +3874,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="myWordCloudAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3863,7 +3888,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_tensorflow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myWordCloudAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -3872,7 +3897,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="myWordCloudAnalysis2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3886,7 +3911,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myWordCloudAnalysis2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -3897,11 +3922,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flower_model2" />
-        <item itemvalue="Python.flower_ai" />
-        <item itemvalue="Python.flower_model1" />
-        <item itemvalue="Python.my_number" />
-        <item itemvalue="Python.mnist_tensorflow" />
+        <item itemvalue="Python.frogWordCloud" />
+        <item itemvalue="Python.elsaWordCloud" />
+        <item itemvalue="Python.fileWordCloud" />
+        <item itemvalue="Python.myWordCloudAnalysis2" />
+        <item itemvalue="Python.myWordCloudAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -3924,12 +3949,25 @@
       <workItem from="1710735855991" duration="1149000" />
       <workItem from="1711097888183" duration="97000" />
       <workItem from="1711098022102" duration="8392000" />
-      <workItem from="1711332260574" duration="4177000" />
+      <workItem from="1711332260574" duration="13818000" />
     </task>
+    <task id="LOCAL-00001" summary="2024.03.25 AI응용기술 ( 김진석 교수님 )">
+      <option name="closed" value="true" />
+      <created>1711362882665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711362882665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2024.03.25 AI응용기술 ( 김진석 교수님 )" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.03.25 AI응용기술 ( 김진석 교수님 )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3943,11 +3981,20 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myAiPrj$elsaWordCloud.coverage" NAME="elsaWordCloud Coverage Results" MODIFIED="1711936977882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$flower_model1.coverage" NAME="flower_model1 Coverage Results" MODIFIED="1711331051853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$myWordAnalysis2.coverage" NAME="myWordAnalysis2 Coverage Results" MODIFIED="1711935230031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$frogWordCloud.coverage" NAME="frogWordCloud Coverage Results" MODIFIED="1711943672898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$myWordAnalysis.coverage" NAME="myWordAnalysis Coverage Results" MODIFIED="1711935071898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$myWordCloudAnalysis.coverage" NAME="myWordCloudAnalysis Coverage Results" MODIFIED="1711935795430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$fileWordCloud.coverage" NAME="fileWordCloud Coverage Results" MODIFIED="1711936274107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$mnist_opencv.coverage" NAME="mnist_opencv Coverage Results" MODIFIED="1710736122373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$flower_ai.coverage" NAME="flower_ai Coverage Results" MODIFIED="1711333860524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$my_number.coverage" NAME="my_number Coverage Results" MODIFIED="1710736250189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/myAiPrj$flower_model2.coverage" NAME="flower_model2 Coverage Results" MODIFIED="1711333875840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$flower_model2.coverage" NAME="flower_model2 Coverage Results" MODIFIED="1711932879984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$mnist_tensorflow.coverage" NAME="mnist_tensorflow Coverage Results" MODIFIED="1710736185184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$myWordCloud2.coverage" NAME="myWordCloud2 Coverage Results" MODIFIED="1711934614966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$myWordCloud.coverage" NAME="myWordCloud Coverage Results" MODIFIED="1711933279139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$myWordCloudAnalysis2.coverage" NAME="myWordCloudAnalysis2 Coverage Results" MODIFIED="1711935832881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
