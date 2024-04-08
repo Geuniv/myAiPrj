@@ -26,7 +26,7 @@ stopwords.add("분석을")
 
 # 워드 클라우드를 생성하며, 생성된 워드 클라우드를 myWC 이름의 변수에 저장하기
 # 워드 클라우드를 표시하는 단어가 한글일 경우, 파이썬에서 인식 불능 현상이 발생할 수 있기 때문에 글꼴을 강제 설정함
-myWC = WordCloud(font_path="font/D2Coding-Ver1.3.2-20180524-ligature.ttf", stopwords=stopwords, background_color="white").generate(text)
+myWC = WordCloud(font_path="../font/D2Coding-Ver1.3.2-20180524-ligature.ttf", stopwords=stopwords, background_color="white").generate(text)
 
 # 워드 클라우드의 크기 정의
 plt.figure(figsize=(5,5))
