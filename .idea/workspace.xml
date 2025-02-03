@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dda581c-3827-414a-b4cd-c9d5d38d84ac" name="Changes" comment="2024.05.16 AI응용기술 ( 김진석 교수님 )">
-      <change afterPath="$PROJECT_DIR$/data/ratings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ratings_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ratings_train.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emotion/emotion_Analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emotion/emotion_model.py" afterDir="false" />
+    <list default="true" id="4dda581c-3827-414a-b4cd-c9d5d38d84ac" name="Changes" comment="2024.08.12 AI응용기술 ( 김진석 교수님 )">
       <change afterPath="$PROJECT_DIR$/font/BaLeeJiEun.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/font/D2Coding-Ver1.3.2-20180524-ligature.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/font/NanumGothic.ttf" afterDir="false" />
@@ -31,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Geuniv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Geuniv/myAiPrj.git",
+    "accountId": "62894290-3801-4c21-be5e-64d07fd867ee"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -40,50 +47,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.NLP_bow.executor": "Run",
-    "Python.NLP_bow2.executor": "Run",
-    "Python.colorWordCloud.executor": "Run",
-    "Python.elsaWordCloud.executor": "Run",
-    "Python.emotion.executor": "Run",
-    "Python.emotion_Analysis.executor": "Run",
-    "Python.emotion_model (1).executor": "Run",
-    "Python.fileWordCloud.executor": "Run",
-    "Python.flower_ai.executor": "Run",
-    "Python.flower_model1.executor": "Run",
-    "Python.flower_model2.executor": "Run",
-    "Python.frogWordCloud.executor": "Run",
-    "Python.mnist_opencv.executor": "Run",
-    "Python.mnist_tensorflow.executor": "Run",
-    "Python.myWordAnalysis.executor": "Run",
-    "Python.myWordAnalysis2.executor": "Run",
-    "Python.myWordCloud.executor": "Run",
-    "Python.myWordCloud2.executor": "Run",
-    "Python.myWordCloudAnalysis.executor": "Run",
-    "Python.myWordCloudAnalysis2.executor": "Run",
-    "Python.my_number.executor": "Run",
-    "Python.tf-dif-cosine.executor": "Run",
-    "Python.tf-idf-euclid.executor": "Run",
-    "Python.tf-idf-sklearn.executor": "Run",
-    "Python.tf-idf.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowPlots.ShowToolbar": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/myAiPrj/font",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.NLP_bow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NLP_bow2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.colorWordCloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.elsaWordCloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emotion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emotion_Analysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emotion_model (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.fileWordCloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flower_ai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flower_model1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flower_model2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.frogWordCloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mnist_opencv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mnist_tensorflow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mrs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myWordAnalysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myWordAnalysis2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myWordCloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myWordCloud2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myWordCloudAnalysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myWordCloudAnalysis2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf-dif-cosine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf-idf-euclid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf-idf-sklearn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tf-idf.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowPlots.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/pythonRPA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="myAiPrj" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="myAiPrj" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myAiPrj\data\movie" />
       <recent name="C:\myAiPrj\font" />
       <recent name="C:\myAiPrj\Test_images" />
       <recent name="C:\myAiPrj\images" />
@@ -97,30 +114,7 @@
       <recent name="C:\myAiPrj\wordcolud\result" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.emotion_Analysis">
-    <configuration name="emotion_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="myAiPrj" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/emotion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/emotion/emotion_Analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mrs">
     <configuration name="emotion_model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
@@ -190,6 +184,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mrs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myAiPrj" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mrs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mrs/mrs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tf-dif-cosine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="myAiPrj" />
       <option name="ENV_FILES" value="" />
@@ -238,22 +255,26 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.emotion_Analysis" />
-        <item itemvalue="Python.emotion_model (1)" />
-        <item itemvalue="Python.emotion_model" />
         <item itemvalue="Python.tf-idf-euclid" />
         <item itemvalue="Python.tf-dif-cosine" />
+        <item itemvalue="Python.mrs" />
+        <item itemvalue="Python.emotion_model" />
+        <item itemvalue="Python.emotion_model (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\data8316-14\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4dda581c-3827-414a-b4cd-c9d5d38d84ac" name="Changes" comment="" />
@@ -267,7 +288,25 @@
       <workItem from="1711098022102" duration="8392000" />
       <workItem from="1711332260574" duration="24351000" />
       <workItem from="1712880476456" duration="15609000" />
-      <workItem from="1715904322495" duration="6055000" />
+      <workItem from="1715904322495" duration="8067000" />
+      <workItem from="1717373827912" duration="1509000" />
+      <workItem from="1717375369050" duration="266000" />
+      <workItem from="1717375648542" duration="1144000" />
+      <workItem from="1717521418602" duration="38000" />
+      <workItem from="1717979550253" duration="4079000" />
+      <workItem from="1718009990853" duration="71000" />
+      <workItem from="1723473696086" duration="111000" />
+      <workItem from="1723730957970" duration="621000" />
+      <workItem from="1724137505809" duration="41000" />
+      <workItem from="1724285579186" duration="2564000" />
+      <workItem from="1724288703308" duration="5028000" />
+      <workItem from="1724423092847" duration="238000" />
+      <workItem from="1724423358338" duration="1112000" />
+      <workItem from="1724435095597" duration="2354000" />
+      <workItem from="1724659294856" duration="540000" />
+      <workItem from="1724663383374" duration="2000" />
+      <workItem from="1724664028748" duration="771000" />
+      <workItem from="1726708359029" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="2024.03.25 AI응용기술 ( 김진석 교수님 )">
       <option name="closed" value="true" />
@@ -357,7 +396,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715849470591</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2024.05.20 AI응용기술 ( 김진석 교수님 )">
+      <option name="closed" value="true" />
+      <created>1716171458119</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716171458119</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2024.05.21 AI응용기술 ( 김진석 교수님 )">
+      <option name="closed" value="true" />
+      <created>1716303490154</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716303490154</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2024.06.03 AI응용기술 ( 김진석 교수님 )">
+      <option name="closed" value="true" />
+      <created>1717386987133</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717386987133</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2024.06.10 AI응용기술 ( 김진석 교수님 )">
+      <option name="closed" value="true" />
+      <created>1718010034986</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718010034986</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2024.08.12 AI응용기술 ( 김진석 교수님 )">
+      <option name="closed" value="true" />
+      <created>1723473764233</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723473764233</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +452,12 @@
     <MESSAGE value="2024.04.28 AI응용기술 ( 김진석 교수님 )" />
     <MESSAGE value="2024.05.13 AI응용기술 ( 김진석 교수님 )" />
     <MESSAGE value="2024.05.16 AI응용기술 ( 김진석 교수님 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.05.16 AI응용기술 ( 김진석 교수님 )" />
+    <MESSAGE value="2024.05.20 AI응용기술 ( 김진석 교수님 )" />
+    <MESSAGE value="2024.05.21 AI응용기술 ( 김진석 교수님 )" />
+    <MESSAGE value="2024.06.03 AI응용기술 ( 김진석 교수님 )" />
+    <MESSAGE value="2024.06.10 AI응용기술 ( 김진석 교수님 )" />
+    <MESSAGE value="2024.08.12 AI응용기술 ( 김진석 교수님 )" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.08.12 AI응용기술 ( 김진석 교수님 )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -396,6 +480,7 @@
     <SUITE FILE_PATH="coverage/myAiPrj$NLP_bow.coverage" NAME="NLP_bow Coverage Results" MODIFIED="1712537444448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$tf_idf_euclid.coverage" NAME="tf-idf-euclid Coverage Results" MODIFIED="1715564123202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf-idf" />
     <SUITE FILE_PATH="coverage/myAiPrj$flower_model2.coverage" NAME="flower_model2 Coverage Results" MODIFIED="1711932879984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myAiPrj$mrs.coverage" NAME="mrs Coverage Results" MODIFIED="1717984139200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mrs" />
     <SUITE FILE_PATH="coverage/myAiPrj$flower_model1.coverage" NAME="flower_model1 Coverage Results" MODIFIED="1711331051853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$myWordAnalysis2.coverage" NAME="myWordAnalysis2 Coverage Results" MODIFIED="1711935230031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/myAiPrj$frogWordCloud.coverage" NAME="frogWordCloud Coverage Results" MODIFIED="1712539351027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wordcolud" />
